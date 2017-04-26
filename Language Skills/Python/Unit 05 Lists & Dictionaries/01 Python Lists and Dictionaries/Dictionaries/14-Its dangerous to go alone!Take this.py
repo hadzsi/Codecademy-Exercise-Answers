@@ -10,10 +10,16 @@ inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
 # Sorting the list found under the key 'pouch'
 inventory['pouch'].sort()
 
-# Your code here
-inventory['pocket'] = ['seashell', 'strange berry', 'lint']
-inventory['pocket'].sort()
+#Add a key to inventory called 'pocket'
+inventory ['pocket'] = ['seashell', 'strange berry', 'lint']
+
+#.sort() the items in the list stored under the 'backpack' key
 inventory['backpack'].sort()
+
+#.remove('dagger') from the list of items stored under the 'backpack' key
 inventory['backpack'].remove('dagger')
-inventory['backpack'].sort()
-inventory['gold'] = inventory['gold'] +50
+
+#Add 50 to the number stored under the 'gold' key
+inventory['gold'] = inventory['gold'] + 50
+
+print inventory
